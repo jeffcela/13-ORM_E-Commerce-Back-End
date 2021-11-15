@@ -25,7 +25,6 @@ Product.init(
       validate: {
         isDecimal: true
       }
-
     },
     stock: {
       type: DataTypes.INTEGER,
@@ -42,7 +41,6 @@ Product.init(
         key: 'id'
       }
     }
-  
   },
   {
     sequelize,
